@@ -48,7 +48,7 @@ class AppPendaftaran(ctk.CTk):
         return entry
 
     def proses_validasi(self):
-        # Implementasi Regex Sesuai Permintaan Anda
+        # Implementasi Regex
         patterns = {
             "Nama Lengkap": (
                 self.input_nama.get(),
